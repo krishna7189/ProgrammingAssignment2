@@ -14,6 +14,7 @@
 ## matrix along with its inverse. this inverse is stored under global environement, which can be cached later by
 ## any other function.
 
+library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   setmatrix <- function(y)
